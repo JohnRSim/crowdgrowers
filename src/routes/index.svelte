@@ -20,7 +20,7 @@
 
 <style>
 	.overview {
-		width: 400px;
+		width: 300px;
 		margin: 0px auto;
 	}
 	button {
