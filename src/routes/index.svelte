@@ -19,6 +19,10 @@
 </script>
 
 <style>
+	.overview {
+		width: 400px;
+		margin: 0px auto;
+	}
 	button {
 		color: rgba(255,255,255,0.5);
 		text-transform: uppercase;
@@ -37,6 +41,6 @@
 </svelte:head>
 
 <div class="overview">
-	<img src="/logo_crowdgrowers.png" width="250" height="111" alt="logo CrowdGrowers"/>
+	<img src="/img/logo_crowdgrowers_flat_white.svg" width="250" height="111" alt="logo CrowdGrowers"/>
 	<button>Coming soon...</button>
 </div>
