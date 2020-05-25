@@ -95,22 +95,22 @@ footer a {
 		<nav>
 			<ul>
 				<li>
-					<a class="ico_fb" target="_blank" rel="me" href="https://www.facebook.com/CrowdGrowers">Facebook</a>
+					<a class="ico_fb" target="_blank" rel="me noopener" href="https://www.facebook.com/CrowdGrowers">Facebook</a>
 				</li>
 				<li>
-					<a class="ico_ig" target="_blank" rel="me" href="https://www.instagram.com/crowdgrowers">Instagram</a>
+					<a class="ico_ig" target="_blank" rel="me noopener" href="https://www.instagram.com/crowdgrowers">Instagram</a>
 				</li>
 				<li>
-					<a class="ico_tw" target="_blank" rel="me" href="https://twitter.com/CrowdGrowers">Twitter</a>
+					<a class="ico_tw" target="_blank" rel="me noopener" href="https://twitter.com/CrowdGrowers">Twitter</a>
 				</li>
 				<li>
-					<a class="ico_yt" target="_blank" rel="me" href="https://www.youtube.com/channel/UCvW4UJTggyGwIgHGTlscfMw">Youtube</a>
+					<a class="ico_yt" target="_blank" rel="me noopener" href="https://www.youtube.com/channel/UCvW4UJTggyGwIgHGTlscfMw">Youtube</a>
 				</li>
 				<li>
-					<a class="ico_pi" target="_blank" rel="me" href="https://www.pinterest.co.uk/CrowdGrowers/">Pinterest</a>
+					<a class="ico_pi" target="_blank" rel="me noopener" href="https://www.pinterest.co.uk/CrowdGrowers/">Pinterest</a>
 				</li>
 				<li>
-					<a class="ico_md" target="_blank" rel="me" href="https://mstdn.social/@CrowdGrowers">Mastodon</a>
+					<a class="ico_md" target="_blank" rel="me noopener" href="https://mstdn.social/@CrowdGrowers">Mastodon</a>
 				</li>
 			</ul>
 		</nav>
