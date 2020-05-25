@@ -24,6 +24,7 @@ footer {
 	bottom:0px;
 	left:0px;
 	right:0px;
+	padding: 20px;
 }
 
 footer ul {
