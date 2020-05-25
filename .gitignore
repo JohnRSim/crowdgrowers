@@ -4,3 +4,11 @@
 yarn-error.log
 /cypress/screenshots/
 /__sapper__/
+/mobile/node_modules/
+/mobile/platforms/
+/mobile/plugins/
+/mobile/www/
+/mobilev2/node_modules/
+/mobilev2/platforms/
+/mobilev2/plugins/
+/mobilev2/www/
