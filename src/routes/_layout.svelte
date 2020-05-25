@@ -16,7 +16,7 @@
 
 <style>
 #CG-siteWrapper {
-
+	padding:0px;
 }
 
 footer {
@@ -78,27 +78,36 @@ footer a {
 }
 </style>
 
+<!-- CrowdGrowers Site Wrapper -->
 <div id="CG-siteWrapper">
+	<!-- Header -->
+	<header></header>
+	<!--x Header -->
+
+	<!-- Content-->
 	<main>
 		<slot></slot>
 	</main>
+	<!-- xContent-->
+
+	<!-- Footer -->
 	<footer>
 		<nav>
 			<ul>
 				<li>
-					<a class="ico_fb" target="_blank" href="https://www.facebook.com/CrowdGrowers">Facebook</a>
+					<a class="ico_fb" target="_blank" rel="me" href="https://www.facebook.com/CrowdGrowers">Facebook</a>
 				</li>
 				<li>
-					<a class="ico_ig" target="_blank" href="https://www.instagram.com/crowdgrowers">Instagram</a>
+					<a class="ico_ig" target="_blank" rel="me" href="https://www.instagram.com/crowdgrowers">Instagram</a>
 				</li>
 				<li>
-					<a class="ico_tw" target="_blank" href="https://twitter.com/CrowdGrowers">Twitter</a>
+					<a class="ico_tw" target="_blank" rel="me" href="https://twitter.com/CrowdGrowers">Twitter</a>
 				</li>
 				<li>
-					<a class="ico_yt" target="_blank" href="https://www.youtube.com/channel/UCvW4UJTggyGwIgHGTlscfMw">Youtube</a>
+					<a class="ico_yt" target="_blank" rel="me" href="https://www.youtube.com/channel/UCvW4UJTggyGwIgHGTlscfMw">Youtube</a>
 				</li>
 				<li>
-					<a class="ico_pi" target="_blank" href="https://www.pinterest.co.uk/CrowdGrowers/">Pinterest</a>
+					<a class="ico_pi" target="_blank" rel="me" href="https://www.pinterest.co.uk/CrowdGrowers/">Pinterest</a>
 				</li>
 				<li>
 					<a class="ico_md" target="_blank" rel="me" href="https://mstdn.social/@CrowdGrowers">Mastodon</a>
@@ -106,4 +115,6 @@ footer a {
 			</ul>
 		</nav>
 	</footer>
+	<!-- xFooter -->
 </div>
+<!-- xCrowdGrowers Site Wrapper -->
