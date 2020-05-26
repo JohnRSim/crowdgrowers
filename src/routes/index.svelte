@@ -33,6 +33,14 @@
 		letter-spacing: 1px;
 		font-size: 0.8em;
 	}
+	h1 {
+		overflow: hidden;
+		position: relative;
+	}
+	h1 span {
+		position: absolute;
+		left:-9999px;
+	}
 </style>
 
 <svelte:head>
@@ -41,6 +49,10 @@
 </svelte:head>
 
 <div class="overview">
-	<img src="/img/logo_crowdgrowers_flat_white.svg" width="250" height="111" alt="logo CrowdGrowers"/>
+	<h1>
+		<span>CrowdGrowers</span>
+		<img src="/img/logo_crowdgrowers_flat_white.svg" width="250" height="111" alt="logo CrowdGrowers"/>
+	</h1>
+	
 	<button>Coming soon...</button>
 </div>
