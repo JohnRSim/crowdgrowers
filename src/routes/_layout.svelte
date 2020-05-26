@@ -112,6 +112,7 @@ footer a {
 				<li>
 					<a class="ico_md" target="_blank" rel="me noopener" href="https://mstdn.social/@CrowdGrowers">Mastodon</a>
 				</li>
+				<li style="display:none;"><a href="/sitemap.xml">SiteMap</a></li>
 			</ul>
 		</nav>
 	</footer>
