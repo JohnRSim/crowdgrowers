@@ -2,16 +2,26 @@
 <html lang='en'>
 <head>
 	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
 	<meta name='theme-color' content='#333333'>
+	
+    <meta data-rh="true" name="msapplication-starturl" content="https://www.crowdgrowers.com" />
+    <meta name="msapplication-TileColor" content="#333333" />
+	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
 
 	%sapper.base%
 	
+	<link rel="preconnect" href="https://crowdgrowers.com">
+	<link rel="dns-prefetch" href="https://crowdgrowers.com">
+	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
+	<!--<link rel="preconnect" href="https://www.google-analytics.com">-->
+	<link rel="dns-prefetch" href="https://www.google-analytics.com">
+
     <link rel="canonical" href="https://www.crowdgrowers.com/" />
 
 	<link rel='stylesheet' href='global.css'>
 
-	<link rel='manifest' href='manifest.json' crossorigin='use-credentials'>
 
 	<link rel='icon' type='image/png' href='favicon.png'>
 	<!--<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120.png">
@@ -21,15 +31,10 @@
 	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png" />
 	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png" />
 	
+	<!-- Add to home screen for Safari on iOS -->
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-title" content="CrowdGrowers">
 	<meta name="apple-mobile-web-app-status-bar-style" content="white">
-
-	<link rel="preconnect" href="https://crowdgrowers.com">
-	<link rel="dns-prefetch" href="https://crowdgrowers.com">
-	<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-	<!--<link rel="preconnect" href="https://www.google-analytics.com">-->
-	<link rel="dns-prefetch" href="https://www.google-analytics.com">
 
 	
 	<link rel="alternate" href="https://www.crowdgrowers.org/" hreflang="en" />
@@ -41,6 +46,29 @@
 	
 
 	<!--<link rel="alternate" href="android-app://com.crowdgrowers.android.main/crowdgrowers/home"/>-->
+	
+	<!-- Open Graph -->
+	<meta property="og:image" content="https://www.crowdgrowers.com/social/opengraph_solid_logo.png" />
+    <meta property="og:image:width" content="256" />
+    <meta property="og:image:height" content="256" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:url" content="https://www.crowdgrowers.com/?utm_medium&#x3D;social&amp;utm_campaign&#x3D;addthis&amp;utm_source&#x3D;facebook_uk" />
+    <meta property="og:title" content="CrowdGrowers | Helping to combat food waste" />
+    <meta property="og:description" content="" />
+	<meta property="og:type" content="product" />
+	
+	<!-- Facebook Card -->
+	<meta property='fb:pages' content='100809391659127' />
+	
+	
+	<!-- Twitter Card -->
+	<meta name="twitter:site" value="@crowdgrowers" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:title" content="CrowdGrowers" />
+	<meta name="twitter:description" content="Helping to combat food waste" />
+	<meta name="twitter:url" content="https://www.crowdgrowers.com" />
+	<meta name="twitter:image" content="https://www.crowdgrowers.com/social/twitter.png" />
+
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-167577976-1"></script>
