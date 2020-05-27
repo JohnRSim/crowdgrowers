@@ -44,7 +44,7 @@
 </style>
 
 <svelte:head>
-	<title>CrowdGrowers - Helping to combat food waste</title>
+	<title>🍎 CrowdGrowers - Helping to combat food waste</title>
 	<meta name="description" content="Help combat food waste with CrowdGrowers; a new sustainable way to source fresh organic food - cultivated just for you straight from the source.">
 </svelte:head>
 
