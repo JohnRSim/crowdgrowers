@@ -81,12 +81,22 @@
 	
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script defer src="https://www.googletagmanager.com/gtag/js?id=UA-167577976-1"></script>
-	<script>
+	<script defer>
 	window.dataLayer = window.dataLayer || [];
 	function gtag(){dataLayer.push(arguments);}
 	gtag('js', new Date());
 
 	gtag('config', 'UA-167577976-1');
+	</script>
+
+	<script defer src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"></script>
+	<script defer>
+		var OneSignal = window.OneSignal || [];
+		OneSignal.push(function() {
+			OneSignal.init({
+			appId: "0b5d884c-7c9f-40f1-8bab-9cbb5e2e78a4",
+			});
+		});
 	</script>
 
 
