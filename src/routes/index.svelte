@@ -54,5 +54,8 @@
 		<img src="/img/logo_crowdgrowers_flat_white.svg" width="250" height="111" alt="logo CrowdGrowers"/>
 	</h1>
 	
-	<button>Coming soon...</button>
+	<button>
+		Coming soon...
+		<button>#CrowdGrowers</button>	
+	</button>
 </div>
